@@ -1,4 +1,4 @@
-![https://img.shields.io/badge/FirstWorkFlow-passed-green] (https://github.com/fjellaperc/hexlet-ci-app/.github/workflows/main.yml)
+[![FirstWorkFlow](https://img.shields.io/badge/FirstWorkFlow-passed-green) (https://github.com/fjellaperc/hexlet-ci-app/.github/workflows/main.yml)
 
 # Example app for CI Hexlet course
 
