@@ -6,16 +6,16 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - name: setup
-         run: setup
+         run: npm setup
       - name: start
-         run: start  
+         run: npm start  
   linter:
     runs-on: ubuntu-latest
       - uses: actions/checkout@v3
-      - run: lint
+      - run: npm lint
   test:
     runs-on: ubuntu-latest
     - uses: actions/checkout@v3
-    - run: test
+    - run: npm test
 
       
