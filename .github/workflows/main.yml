@@ -6,17 +6,5 @@ jobs:
     steps:
       - uses: actions/checkout@v3
       - run: npm install
-
-  linter:
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v3
       - run: npm run lint
-
-  test:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v3
-    - run: npm run test
-
-      
+      - run: npm run test
