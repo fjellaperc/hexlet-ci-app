@@ -5,14 +5,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: setup
-         run: npm setup
-      - name: start
-         run: npm start  
+      - run: npm setup
+      - run: npm start
+
   linter:
     runs-on: ubuntu-latest
       - uses: actions/checkout@v3
       - run: npm lint
+
   test:
     runs-on: ubuntu-latest
     - uses: actions/checkout@v3
