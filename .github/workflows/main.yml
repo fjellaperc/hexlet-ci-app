@@ -8,14 +8,14 @@ jobs:
       - name: setup
          run: make setup
       - name: start
-         run: make start  
+         run: start  
   linter:
     runs-on: ubuntu-latest
       - uses: actions/checkout@v3
-      - run: make lint
+      - run: lint
   test:
     runs-on: ubuntu-latest
     - uses: actions/checkout@v3
-    - run: make test
+    - run: test
 
       
